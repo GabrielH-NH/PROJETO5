@@ -4,6 +4,15 @@ body {
   color: #111111;
 }
 
+h1, h2, h3, h4, ul, p {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -14,11 +23,7 @@ img {
   max-width: 100%;
 }
 
-h1, ul, p {
-  margin: 0px;
+img[src$=".jpg"] {
+  border-radius: 4px;
 }
 
-ul {
-  padding: 0px;
-  list-style: none;
-}
