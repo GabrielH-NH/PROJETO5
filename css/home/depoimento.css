@@ -59,11 +59,19 @@
   }
 }
 
-@media (max-width: 650) {
-  .depoimento-contreu
+@media (max-width: 600px) {
+  .depoimento p::after,
+  .depoimento p::before {
+    font-size: 3rem;
+  }
 
-  
-  .depoimento-conteudo p::after {
+  .depoimento p::before {
+    left: 0px;
+    top: -10px;
+  }
 
+  .depoimento p {
+    max-width: 20ch;
+    font-size: 1.5rem;
   }
 }
